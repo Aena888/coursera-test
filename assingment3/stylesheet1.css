@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    background: #D66D75;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#collapsibleNavId {
+    margin: 0%;
+}
+
+ul>li>a>span>img {
+    margin: 10.9px;
+    color: lightpink;
+}
+
+#phone {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+li>a:link {
+    color: #FF0000;
+}
+
+
+/* visited link */
+
+li>a:visited {
+    color: #00FF00;
+}
+
+
+/* mouse over link */
+
+li>a:hover {
+    color: lightsalmon;
+    text-decoration: thistle;
+}
+
+
+/* selected link */
+
+li>a:active {
+    color: #0000FF;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    width: 600%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(202, 190, 202);
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
